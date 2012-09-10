@@ -1,5 +1,6 @@
 <?php
-// IRC Number of Users widget
+// CountIRC
+// Widget for the web. Displays number of nicks currently online in a given IRC channel
 // 2012 Aaron Baxter and Chris Lemay 
 // Widget will only work if BigBen is in the channel
 

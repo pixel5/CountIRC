@@ -1,3 +1,4 @@
+Name: CountIRC
 Author: Aaron Baxter
 
 HOW TO USE BIGBEN IRC COUNTER WIDGET
