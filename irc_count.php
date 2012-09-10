@@ -4,7 +4,7 @@
 // Widget will only work if BigBen is in the channel
 
 // Insert your channel name here, include the #
-$ChannelName = '#novusunion';
+$ChannelName = '#YourChannelHere';
 
 
 // DONT TOUCH ANYTHING BELOW
