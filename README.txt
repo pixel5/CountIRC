@@ -1,6 +1,8 @@
 Name: CountIRC
 Author: Aaron Baxter
 
+CountIRC is a web application that displays the number of nicks online in a given IRC channel.
+
 HOW TO USE BIGBEN IRC COUNTER WIDGET
 
 1. BigBen must be in your channel. Contact TheCrittaC on Rizon to request the bot.
