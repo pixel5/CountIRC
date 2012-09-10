@@ -9,8 +9,9 @@ $ChannelName = '#YourChannelHere';
 
 
 // DONT TOUCH ANYTHING BELOW
-$file = 'http://www.thecrittac.com/users.txt';
-$contents = file_get_contents($file);
+$ctx = stream_context_create(array('http' => array('timeout' => 3000)));
+$file = "http://www.thecrittac.com/users.txt";
+$contents = file_get_contents($file, $ctx);
 $pattern = preg_quote($ChannelName, '/');
 $pattern = "/^.*$pattern.*\$/m";
 
@@ -21,9 +22,7 @@ if(preg_match_all($pattern, $contents, $matches)){
 	echo "Users Online: <a style='color:#009900;'><strong>".$string."</strong></a>";
 }
 else{
-   echo "<a style='color:#cc0000;'>BigBen is down.</a>";
+   echo "<a style='color:#cc0000;'>CountIRC is down.</a>";
 }
-
-
 
 ?>
