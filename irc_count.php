@@ -10,7 +10,7 @@ $ChannelName = '#YourChannelHere';
 
 // DONT TOUCH ANYTHING BELOW
 $ctx = stream_context_create(array('http' => array('timeout' => 2)));
-$file = "http://www.thecrittac.com/users.txt";
+$file = "http://www.thecrittac.us/users.txt";
 $contents = file_get_contents($file,0,$ctx);
 $pattern = preg_quote($ChannelName, '/');
 $pattern = "/^.*$pattern.*\$/m";
